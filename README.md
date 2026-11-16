@@ -47,6 +47,16 @@ Le projet est composé des microservices suivants :
 - Mise en place du Discovery Service.
 - Test des services Backend avec Postman et Swagger UI.
 
+### Screenshots :
+<img src="screenshots/partie-1/1.png"/>
+<hr/>
+<img src="screenshots/partie-1/2.png"/>
+<hr/>
+<img src="screenshots/partie-1/3.png"/>
+<hr/>
+<img src="screenshots/partie-1/4.png"/>
+<hr/>
+<img src="screenshots/partie-1/5.png"/>
 ### Partie 2
 
 À compléter.
