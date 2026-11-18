@@ -57,9 +57,52 @@ Le projet est composé des microservices suivants :
 <img src="screenshots/partie-1/4.png"/>
 <hr/>
 <img src="screenshots/partie-1/5.png"/>
-### Partie 2
 
-À compléter.
+### Partie 2 : Intégration de l'Intelligence Artificielle avec Spring AI et MCP
+
+Cette partie consiste à intégrer un agent conversationnel intelligent (AI Agent) à l'application E-Bank Microservices, en utilisant Spring AI et le protocole Model Context Protocol (MCP).
+
+L'objectif est de permettre au chatbot d'interagir directement avec les microservices bancaires afin d'accéder à leurs fonctionnalités et de répondre aux demandes des utilisateurs.
+
+#### 1. Développement de l'AI Agent
+- Développement d'un AI Agent basé sur Spring AI.
+- Mise en place du système de gestion des interactions conversationnelles.
+
+#### 2. Intégration du protocole MCP
+- Exposition des fonctionnalités des microservices via MCP.
+- Test des fonctionnalités des microservices via un MCP Client.
+- Connexion du chatbot aux microservices à l'aide du protocole MCP.
+
+#### 3. Tests et intégration du Chatbot
+- Test du chatbot avec un client REST.
+- Intégration et test du chatbot avec un client Telegram.
+- Intégration et test du chatbot avec un client Discord.
+
+#### Screenshots
+
+<img src="screenshots/partie-2/1.png" width="100%"/>
+
+<hr/>
+
+<img src="screenshots/partie-2/2.png" width="100%"/>
+
+<hr/>
+
+<img src="screenshots/partie-2/3.png" width="100%"/>
+
+<hr/>
+
+<img src="screenshots/partie-2/4.png" width="100%"/>
+
+<hr/>
+
+<img src="screenshots/partie-2/5.png" width="100%"/>
+
+<hr/>
+
+<img src="screenshots/partie-2/6.png" width="100%"/>
+
+
 
 ### Partie 3
 
