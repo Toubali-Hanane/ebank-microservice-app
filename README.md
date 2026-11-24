@@ -106,7 +106,51 @@ L'objectif est de permettre au chatbot d'interagir directement avec les microser
 
 ### Partie 3
 
-À compléter.
+### Partie 3 : Développement du Frontend avec Angular 
+
+Cette partie consiste à développer l'interface utilisateur de l'application E-Bank Microservices avec Angular, afin de permettre la gestion des comptes bancaires et l'interaction avec l'AI Agent.
+
+L'objectif est de créer une interface web moderne permettant aux utilisateurs d'accéder aux fonctionnalités bancaires et d'échanger avec l'agent conversationnel intelligent.
+
+#### 1. Configuration du projet Angular:
+- Création du projet avec Angular CLI et TypeScript.
+- Intégration de Bootstrap 5 et Bootstrap Icons.
+- Mise en place de la navigation avec Angular Router.
+- Création d'une interface principale avec Navbar et Router Outlet.
+
+#### 2. Développement du composant Accounts:
+- Récupération des comptes bancaires via les API REST.
+- Communication avec les microservices à travers Spring Cloud Gateway.
+- Utilisation de HttpClient, inject(), Observables et Async Pipe.
+- Affichage dynamique des comptes sous forme de tableau.
+- Gestion des erreurs HTTP.
+
+#### 3. Loading Service et HTTP Interceptor:
+- Création d'un Loading Service basé sur Angular Signals.
+- Mise en place d'un HTTP Interceptor pour suivre les requêtes HTTP.
+- Utilisation de RxJS finalize() pour gérer le chargement.
+- Affichage d'un Spinner Bootstrap.
+
+#### 4. Développement du composant Bots (AI Chatbot):
+- Création d'une interface conversationnelle interactive.
+- Communication avec l'AI Agent via HttpClient.
+- Affichage des réponses avec NGX-Markdown.
+- Interaction avec les fonctionnalités bancaires via le protocole MCP.
+
+#### 5. Streaming des réponses du Chatbot:
+- Mise en place du streaming avec Spring AI et WebFlux (Flux<String>).
+- Gestion des événements HTTP avec Angular et RxJS.
+- Affichage progressif des réponses générées par l'AI Agent.
 
 
-HANANE TOUBALI
+#### Screenshots:
+
+<img src="screenshots/partie-3/one.png" width="100%"/>
+
+<hr/>
+
+<img src="screenshots/partie-3/two.png" width="100%"/>
+
+
+**HANANE TOUBALI**
+
